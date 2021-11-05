@@ -46,8 +46,10 @@
     display: flex;
 }
 
-.specifications__item:not(:last-child) {
-    margin-right: 30px;
+.specifications__item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .box__item {
